@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+> HELLO THERE!
+
+# I am Justus Ilemobayo, a Data Analyst and Data Scientist
+
+
 
 You can use the [editor on GitHub](https://github.com/Justus-coded/Justus-coded.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
