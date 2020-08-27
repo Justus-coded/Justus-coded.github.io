@@ -4,8 +4,8 @@
 
 ## PORTFOLIO
 
-### Project 1: Employee-Attrition-Problem
-A detailed analysis on Employee Attrition and Predictive Analysis using Machine Learning Algorithms. 
+### [Project 1: Employee-Attrition-Problem](https://github.com/Justus-coded/Employee-Attrition-Problem)
+**A detailed analysis on Employee Attrition and Predictive Analysis using Machine Learning Algorithms.** 
 
 #### Description
 
