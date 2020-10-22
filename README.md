@@ -34,38 +34,37 @@ The data is for company X which is trying to control attrition. There are two se
    Using predictive analysis techniques, we predicted based on the data, whether an employee would leave the company or not. Using CatBoost Classifier, we achieved 99.47% accuracy. Check jupyter notebook (.ipynb) for more details.
 
 
-You can use the [editor on GitHub](https://github.com/Justus-coded/Justus-coded.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### [Project 2: Insurance-Prediction](https://github.com/Justus-coded/Insurance-Prediction)
+**To build a predictive model to determine if a building will have an insurance claim during a certain period or not**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Data Description
+Recently, there has been an increase in the number of building collapse in Lagos and major cities in Nigeria. An Insurance Company offers a building insurance policy that protects buildings against damages that could be caused by a fire or vandalism, by a flood or storm.
 
-### Markdown
+The target variable, Claim, is a:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1 if the building has at least a claim over the insured period.,
+0 if the building doesn’t have a claim over the insured period.
 
-```markdown
-Syntax highlighted code block
+#### Content
+1. Exploratory Data Analysis
+2. Data Cleaning and Preprocessing
+3. Feature Extraction and generation
+4. Predictive Analysis
 
-# Header 1
-## Header 2
-### Header 3
+* **Exploratory Data Analysis**
 
-- Bulleted
-- List
+Here we dig into the data using Data Visualization Techniques to find relationship between various features. Check jupyter notebook on Exploratory Data Analysis. Tableau was also used to create several dashboards.
 
-1. Numbered
-2. List
+* **Data Cleaning and Preprocessing**
 
-**Bold** and _Italic_ and `Code` text
+Fill in all missing values, remove redundant features, convert the data-type of categorical features.
 
-[Link](url) and ![Image](src)
-```
+* **Feature Extraction and Genration**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Create new features from relationships between existing ones. For Example, create a new column of painted building with garden or painted building with fenced building.
 
-### Jekyll Themes
+* **Predictive Analysis**
+Using various Machine Learning Algorithms like CatBoost and XGBoost, predict whether or not a building will have an insurance claim during a certain period
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Justus-coded/Justus-coded.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
